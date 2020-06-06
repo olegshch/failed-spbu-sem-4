@@ -28,7 +28,7 @@ module Functions =
                     else pow (a * 2) (b - 1)
                 pow 1 n
             if n = m then list
-            else Power (n+1) m (list @ [Makingpower n])
+            else Power (n + 1) m (list @ [Makingpower n])
         Power n (n + m + 1) []
 
     let Find list n =

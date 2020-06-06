@@ -1,8 +1,7 @@
 image: Visual Studio 2019
 
 environment:
- matrix:
- 
+ matrix: 
   - solution_path: SimpleFunctions\SimpleFunctions.sln
 
 before_build:

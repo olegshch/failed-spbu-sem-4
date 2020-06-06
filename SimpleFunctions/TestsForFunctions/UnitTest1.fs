@@ -17,7 +17,7 @@ let ``Reverse test`` () =
 
 [<Test>]
 let ``Power test`` () =
-    SimpleFunctions.Functions.PowerTwo 4 7 |> should equal [16;32;64;128]
+    SimpleFunctions.Functions.PowerTwo 4 7 |> should equal [16; 32; 64; 128; 256; 512; 1024; 2048]
 
 [<Test>]
 let ``Find test`` () =

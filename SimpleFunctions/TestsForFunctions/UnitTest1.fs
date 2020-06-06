@@ -13,11 +13,11 @@ let ``Fibonacci test`` () =
 
 [<Test>]
 let ``Reverse test`` () =
-    SimpleFunctions.Functions.ReverseList [1;2;3;4;5] |> should equal [5;4;3;2;1]
+    SimpleFunctions.Functions.ReverseList [1; 2; 3; 4; 5] |> should equal [5; 4; 3; 2; 1]
 
 [<Test>]
 let ``Power test`` () =
-    SimpleFunctions.Functions.PowerTwo 4 7 |> should equal [16;32;64;128]
+    SimpleFunctions.Functions.PowerTwo 4 7 |> should equal [16; 32; 64; 128; 256; 512; 1024; 2048]
 
 [<Test>]
 let ``Find test`` () =
